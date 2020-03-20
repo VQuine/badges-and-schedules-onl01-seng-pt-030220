@@ -35,6 +35,7 @@ def printer(argument)
 
   returned_assigned_rooms = assign_rooms(argument).to_s
   returned_batches_badged = batch_badge_creator(argument).to_s
-puts returned_batches_badged.to_s
+
+  returned_batches_badged
 
 end
